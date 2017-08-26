@@ -1,0 +1,9 @@
+/node_modules
+/public/storage
+/vendor
+/.idea
+.env
+/gulp
+gulpfile.js
+/plugins
+/resources/assets
