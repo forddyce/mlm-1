@@ -56,7 +56,6 @@ Route::post($adminRoute . '/login', ['as' => 'admin.postLogin', 'uses' => 'Admin
 Route::get($adminRoute . '/settings', ['as' => 'admin.settings', 'uses' => 'Admin\AdminController@getSettings']);
 Route::post($adminRoute. '/update-account', ['as' => 'admin.updateAccount', 'uses' => 'Admin\AdminController@postUpdateAccount']);
 Route::get($adminRoute, ['as' => 'admin.index', 'uses' => 'Admin\AdminController@getIndex']);
-Route::get('client-destroy', 'SiteController@destroy');
 
 Route::get($adminRoute . '/member/register', ['as' => 'admin.member.register', 'uses' => 'Admin\AdminController@getMemberRegister']);
 Route::get($adminRoute . '/member/list', ['as' => 'admin.member.list', 'uses' => 'Admin\AdminController@getMemberList']);
