@@ -5,7 +5,7 @@ Using Laravel and VueJS.
 - If cannot run `artisan` import included database (`sales_db.sql`).
 - If can run `php artisan migrate` and `php artisan db:seed`
 
-`localhost/app`, `user@user.com`, `password`
+`localhost/app`, `user`, `password`
 
 Use `PHP >= 5.6` and `MYSQL >= 5.7`,  **NO EXCEPTIONS !**
 
