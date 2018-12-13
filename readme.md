@@ -1,4 +1,4 @@
-# Sales and Purchase System, Web Based
+# No Longer Maintained
 
 Using Laravel and VueJS.
 - `composer install`
